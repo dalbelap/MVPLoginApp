@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated
+                which is used to tint widgets -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- color used in app background-->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- disable window title -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- disable window actionbar, cause u have an main_toolbar -->
+        <item name="windowActionBar">false</item>
+
+        <!-- style for drawer arrow -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <!-- Buttons-->
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+
+        <!-- widgets style-->
+        <!--<item name="colorControlNormal">@android:color/white</item>-->
+        <!--<item name="colorControlActivated">@color/colorAccent</item>-->
+        <!--<item name="colorControlHighlight">@color/colorPrimaryDark</item>-->
+
+        <!--<item name="android:textColorHint">@color/textHint</item>-->
+        <!--<item name="android:textColorPrimary">@color/textPrimary</item>-->
+        <!--<item name="android:textColorSecondary">@color/textSecondary</item>-->
+        <!--<item name="android:textColor">@color/textPrimary</item>-->
+
+        <!-- Dialogs style -->
+        <!--<item name="android:dialogTheme">@style/DialogTheme</item>-->
+        <!--<item name="android:alertDialogTheme">@style/DialogTheme</item>-->
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+</resources>

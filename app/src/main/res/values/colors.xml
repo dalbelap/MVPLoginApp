@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0277bd</color>
+    <color name="colorAccent">#40c4ff</color>
+    <color name="background">#ffffff</color>
+    <color name="text_hint">#b9b9b9</color>
+
+    <color name="text_primary">#202020</color>
+    <color name="text_secondary">#727272</color>
+    <color name="twitter">#55acee</color>
+    <color name="facebook">#3b579d</color>
+    <color name="google">#de4b39</color>
+    <color name="titleColor">@android:color/white</color>
+</resources>
